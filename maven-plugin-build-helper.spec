@@ -1,6 +1,6 @@
 Name:           maven-plugin-build-helper
 Version:        1.5
-Release:        12%{?dist}
+Release:        13%{?dist}
 Summary:        Build Helper Maven Plugin
 
 Group:          Development/Libraries
@@ -65,6 +65,9 @@ cp %{SOURCE1} LICENSE-2.0.txt
 %doc header.txt LICENSE-2.0.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.5-13
+- Mass rebuild 2013-12-27
+
 * Fri Aug 23 2013 Michal Srb <msrb@redhat.com> - 1.5-12
 - Migrate away from mvn-rpmbuild (Resolves: #997496)
 
